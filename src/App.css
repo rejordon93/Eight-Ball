@@ -1,0 +1,24 @@
+.ball {
+  background-color: black; /* Default background color */
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+/* Define colors for different messages */
+.ball.green {
+  background-color: green;
+}
+
+.ball.goldenrod {
+  background-color: goldenrod;
+}
+
+.ball.red {
+  background-color: red;
+}
